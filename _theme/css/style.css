@@ -448,6 +448,8 @@ textarea:focus {
   padding: 0px 23px;
   border-radius: 10px;
   background-color: #fff;
+  border: 1px solid #E9E9E9;
+  
 }
 
 .input._error {

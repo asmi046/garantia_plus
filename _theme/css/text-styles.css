@@ -29,7 +29,7 @@
 }
 
 .text_styles a{
-    color:#4B6E36;
+    color:#DA0000;
 }
 
 .text_styles img{
@@ -46,7 +46,7 @@
 }
 
 .text_styles .wp-block-file__button {
-    background-color: #4B6E36;
+    background-color: #DA0000;
     color: white;
     padding: 5px 20px;
 }
@@ -79,7 +79,7 @@
 
 .text_styles ol li:before{
 
-    color:#4B6E36;
+    color:#DA0000;
     font-weight: bold;
     position: absolute;
     left:0
@@ -90,7 +90,7 @@
     position: absolute;
     width:6px;
     height:6px;
-    background-color: #4B6E36;
+    background-color: #DA0000;
     left:0;
     top: calc(50% - 3px);
 }
