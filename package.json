@@ -1,0 +1,50 @@
+{
+  "name": "wp_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  
+  "scripts": {
+    "start": "gulp",
+    "clear_r": "ssh tttmmm@vistre34.beget.tech \"rm  vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/*.*\"",
+    "send_r": "scp -C *.php *.png *.css tttmmm@vistre34.beget.tech:vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/",
+    "send_ms": "scp -C _theme/*.css tttmmm@vistre34.beget.tech:vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/",
+    "send_head": "scp -C header-booking.php tttmmm@vistre34.beget.tech:vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/",
+    "send_func": "scp -C _theme/functions.php tttmmm@vistre34.beget.tech:vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/",
+    "send_index": "scp -C _theme/index.php tttmmm@vistre34.beget.tech:vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/",
+    "send_footer": "scp -C footer.php tttmmm@vistre34.beget.tech:vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/",
+    "send_one": "scp -C header-booking.php tttmmm@vistre34.beget.tech:vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/",
+    "send_one1": "scp -C header-bus.php tttmmm@vistre34.beget.tech:vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/",
+    "send_one2": "scp -C page-ta-autor.php tttmmm@vistre34.beget.tech:vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/",
+    "send_arct": "scp -C arcticWindow.php tttmmm@vistre34.beget.tech:vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/",
+    "mk_part_carbon": "ssh tttmmm@vistre34.beget.tech \"mkdir -p vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/inc\"",
+    "send_carbon": "scp -C -r inc tttmmm@vistre34.beget.tech:vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/",
+    "send_carbon_fild": "scp -C -r inc/custom-fields-options tttmmm@vistre34.beget.tech:vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/inc/",
+    "mk_part_dir": "ssh tttmmm@vistre34.beget.tech \"mkdir -p vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/template-parts\"",
+    "send_part": "scp -C -r template-parts tttmmm@vistre34.beget.tech:vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/",
+    "send_puncts": "scp -C -r posadkapuncts tttmmm@vistre34.beget.tech:vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/",
+    "mk_part_img": "ssh tttmmm@vistre34.beget.tech \"mkdir -p vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/img\"",
+    "send_img_1": "scp  images/snofl.png tttmmm@vistre34.beget.tech:vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/images/",
+    "send_img_2": "scp  images/bus-g1.svg tttmmm@vistre34.beget.tech:vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/images/",
+    "send_metabox": "scp  inc/custom-fields-options/metaboxes.php tttmmm@vistre34.beget.tech:vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/inc/custom-fields-options/",
+    "mk_part_images": "ssh tttmmm@vistre34.beget.tech \"mkdir -p vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/images\"",
+    "send_images": "scp -r images *.svg tttmmm@vistre34.beget.tech:vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/",
+    "mk_part_js": "ssh tttmmm@vistre34.beget.tech \"mkdir -p vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/js\"",
+    "send_js": "scp -r js tttmmm@vistre34.beget.tech:vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/",
+    "mk_part_css": "ssh tttmmm@vistre34.beget.tech \"mkdir -p vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/css\"",
+    "send_css": "scp -C -r _theme/css tttmmm@vistre34.beget.tech:vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/",
+    "mk_part_fonts": "ssh tttmmm@vistre34.beget.tech \"mkdir -p vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/fonts\"",
+    "send_fonts": "scp -C -r fonts tttmmm@vistre34.beget.tech:vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/",
+    "send_all": "scp -C -r _theme/* tttmmm@vistre34.beget.tech:vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/",
+    "send_upload": "scp -C -r _upload/* tttmmm@vistre34.beget.tech:vistrel46.ru/public_html/wp-content/uploads/"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.11",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0"
+  }
+}
