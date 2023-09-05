@@ -2,12 +2,6 @@
 				<div class="_container">
 
 					<div class="contacts-sec__box">
-						<div class="contacts-sec__nuar">
-							<picture>
-								<source srcset="<?php echo get_template_directory_uri();?>/img/contacts-nuar.webp" type="image/webp">
-								<img src="<?php echo get_template_directory_uri();?>/img/contacts-nuar.png?_v=1689970479121" alt="Затемнение">
-							</picture>
-						</div>
 						<div class="contacts-sec__descp">
 							<h2 class="contacts-sec__title">Контакты</h2>
 							<a href="tel:<?php echo carbon_get_theme_option( 'phone1' ); ?>" class="contacts-sec__tel">

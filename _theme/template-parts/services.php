@@ -1,7 +1,7 @@
 <section class="services section">
 				<div class="_container">
 
-					<h2 class="services__title title">НАШИ УСЛУГИ</h2>
+					<h2 class="services__title title">Наши услуги</h2>
 
 					<div class="services__inner">
 
