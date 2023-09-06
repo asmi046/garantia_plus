@@ -15,6 +15,7 @@ services:
     volumes:
       - ./_theme:/var/www/html/wp-content/themes/garantia_plus
       - ./_upload:/var/www/html/wp-content/uploads
+      - ./_site:/var/www/html
       
   db:
     image: mysql
