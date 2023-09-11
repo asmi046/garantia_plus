@@ -134,7 +134,7 @@ h1 {
 
 h2 {
   font-size: 35px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 42px;
 }
 
@@ -173,14 +173,14 @@ p:last-child {
   text-transform: none;
 }
 
-.title::before {
+/* .title::before {
   content: "";
   float: left;
   width: 50px;
   height: 3px;
   background-color: #E30613;
   margin-top: 16px;
-}
+} */
 
 .section .title {
   margin-bottom: 35px;
@@ -3390,14 +3390,42 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 
 
- .phone_blk{
+.phone_blk{
   display: flex;
   flex-direction: column;
   text-align: right;
 }
 
+.phone_icon_wrap {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-left: 45px;
+}
+
+.phone_icon_wrap::before { 
+  content: "";
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  background-color: #DA0000;
+  border-radius: 30px;
+  background-image: url(../img/icons/phone_white.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60% 60%;
+  left:0;
+  top:3px;
+}
+
 .mob-menu .phone_blk{
-  text-align: left;
+  text-align: right;
+  margin-top: 50px;
+}
+
+.mob-menu .phone_icon_wrap {
+  width:50%;
+  margin-left: auto;
 }
 
 .mob-menu .phone_blk .h_tel{ 
@@ -3405,9 +3433,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .phone_blk .h_tel{ 
-  font-size: 18px;
-  font-weight: bold;
-  color: #E30613;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .phone_blk .h_mail{ 
@@ -3674,7 +3701,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .footer {
   padding: 15px 0;
-  background: #fff;
+  background: #4A4A49;
+  color: white;
+  margin-top: 20px;
+}
+.footer a{
+  color: white;
 }
 
 .footer__row {
@@ -3741,6 +3773,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
       -ms-flex-align: start;
           align-items: start;
   margin-bottom: 35px;
+  font-weight: bold;
 }
 
 .main-banner__subtitle {
@@ -4123,7 +4156,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     
   }
   .main-banner {
-    background-image: url(../img/main-img.webp);
     background-size: cover;
     background-position: top;
   }
@@ -4401,7 +4433,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   }
 
   .main-banner {
-    min-height: 300px;
+    min-height: 220px;
   }
 }
 

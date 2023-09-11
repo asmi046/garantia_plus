@@ -3,9 +3,9 @@
 	<div class="_container">
 
 					<div class="main-banner__descp">
-						<h2 class="main-banner__title">
+						<h1 class="main-banner__title">
 							<?php echo carbon_get_theme_option( 'main_zag' ); ?>
-						</h2>
+						</h1>
 						<p class="main-banner__subtitle">
 							<?php echo carbon_get_theme_option( 'main_sub_zag' ); ?>
 						</p>
