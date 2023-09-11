@@ -3,26 +3,8 @@
 
 					<div class="contacts-sec__box">
 						<div class="contacts-sec__descp">
-							<h2 class="contacts-sec__title">Контакты</h2>
-							<a href="tel:<?php echo carbon_get_theme_option( 'phone1' ); ?>" class="contacts-sec__tel">
-								<svg>
-									<use xlink:href="#phone"></use>
-								</svg>
-								<?php echo carbon_get_theme_option( 'phone1' ); ?>
-							</a>
-							
-							<a href="mailto:<?php echo carbon_get_theme_option( 'email' ); ?>" class="contacts-sec__mail">
-								<svg>
-									<use xlink:href="#mail"></use>
-								</svg>
-								<?php echo carbon_get_theme_option( 'email' ); ?>
-							</a>
-							<div class="contacts-sec__address">
-								<svg>
-									<use xlink:href="#map"></use>
-								</svg>
-								<?php echo carbon_get_theme_option( 'adress' ); ?>
-							</div>
+							<h2 class="contacts-sec__title">Обратная связь</h2>
+							<p>Оставьте обращение и мы свяжется с Вами в течении 15 минут. Наши специалисты ответят на все интересующие Вас вопросы.</p>
 						</div>
 
 						<form action="#" class="contacts-sec__form">

@@ -34,6 +34,13 @@
     margin-bottom: 10px;
 }
 
+.category-nav__menu .nav__menu-list a{
+    border: 1px solid lightgray;
+    padding: 5px 20px;
+    border-radius: 10px;
+    display: block;
+}
+
 .category-nav__menu {
     display: flex;
     flex-direction: column;
@@ -48,14 +55,7 @@
 .category__text-info {
     margin-bottom: 1.2rem;
 }
-.information-categoty__text::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 2px;
-    height: 100%;
-    background-color: rgb(133, 101, 42);
-}
+
 .information-category {
     padding-top: 1.5rem;
     display: flex;
@@ -72,8 +72,9 @@ hr {
 
 .menu-list__item.active,
 .menu-list__item:hover {
-    color:#E30613;
-    font-weight: bold;
+    background-color:#E30613;
+    color: white;
+    border-color: #E30613;
 }
 
 @media (max-width: 768px) { 

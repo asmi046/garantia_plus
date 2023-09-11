@@ -5,6 +5,5 @@
 
 					<?php echo apply_filters( 'the_content', carbon_get_theme_option( 'general-provisions' ) ); ?>
 
-
 				</div>
 </section>
