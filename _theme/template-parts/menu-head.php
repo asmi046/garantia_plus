@@ -16,6 +16,14 @@
 					'menu_class' => 'header__menu-list menu-list d-flex',
 				])?>
 				
+				<?$queryMibok = false;
+				if(!empty($_SERVER['QUERY_STRING']))
+					$queryMibok = $_SERVER['QUERY_STRING'];?>
+
+				<div class="wrapper-mibok-glaza mibok-link11">
+					<a class="wrapper-mibok-glaza-link"  href="<?if(!empty($queryMibok)) echo '?'.$queryMibok.'&special_version=Y'; else echo '?special_version=Y';?>"><span class="mibok-glaza-icon">Aa</span><span class='mibok-glaza-text'>Версия для слабовидящих</span></a>
+				</div>
+
 				<div class="phone_blk">
 					<div class="phone_icon_wrap">
 						<a class="h_tel" href="tel:<?php echo carbon_get_theme_option( 'phone1' ); ?>"><?php echo carbon_get_theme_option( 'phone1' ); ?></a>

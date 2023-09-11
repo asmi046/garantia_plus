@@ -7,9 +7,9 @@
                     </li>
                     <?php
                     $mypages = get_pages( [
+                        'sort_column' => 'menu_order',
                         'child_of' => 11,
-                        'sort_column' => 'title',
-                        'sort_order' => 'asc'
+                        'sort_order' => 'ASC'
                     ] );
                     
                     foreach( $mypages as $page ) {

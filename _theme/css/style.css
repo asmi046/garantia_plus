@@ -3485,9 +3485,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .menu-list a {
   display: block;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
-  padding: 5px 0px 5px 35px;
+  padding: 5px 0px 5px 20px;
 }
 
 .icon-menu {
@@ -4094,6 +4094,56 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   padding-top: 40px;
 }
 
+.mibok-link11 *{box-sizing: content-box;}
+.mibok-link11.wrapper-mibok-glaza{
+  margin: 0 20px 0 0; 
+}
+
+.mibok-link11 .wrapper-mibok-glaza-link{
+  font-size: 9px;
+  color: #01639d;
+  font-weight: 
+  bold;text-decoration: 
+  none !important;
+  position: relative;
+  margin: 0 10px 0 10px;
+}
+
+.mibok-link11 .wrapper-mibok-glaza-link:hover{
+  text-decoration: none !important;
+}
+
+.mibok-link11 .wrapper-mibok-glaza-link .mibok-glaza-icon{
+width: 29px; 
+height:29px; 
+border-radius: 50%; 
+-webkit-border-radius:50%;  
+-moz-border-radius:50%; 
+background: #1678DC; 
+font-size: 18px; 
+font-weight: bold; 
+color:#fff !important; 
+display: inline-block; 
+line-height: 1.7em;
+text-align: center;    
+text-shadow: 0 1px 1px rgba(0, 0, 30, 0.6); 
+margin-right: 10px;
+border: 3px solid #1678DC;
+}
+
+.mibok-link11 .wrapper-mibok-glaza-link .mibok-glaza-text{
+  font-size: 12px;
+  color:#000;   
+  display: inline-block;
+  width: 91px;
+  vertical-align: middle;
+  margin-top: -10px;
+  line-height: 1;
+}
+
+
+.mibok-link11 .wrapper-mibok-glaza-link .mibok-glaza-text:hover{text-decoration: underline; }
+
 @media (min-width: 991.98px) {
   .quantity__button:hover::before,
   .quantity__button:hover::after {
@@ -4142,6 +4192,18 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
   .contacts-sec__box {
     padding: 45px 25px 45px 25px;
+  }
+
+  .mibok-glaza-text {
+    display: none !important;
+  }
+
+  .phone_icon_wrap::before {
+    display: none;
+  }
+
+  .phone_icon_wrap {
+    padding-left: 0;
   }
 }
 
